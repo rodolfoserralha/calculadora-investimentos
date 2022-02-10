@@ -184,3 +184,44 @@
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(85deg) brightness(103%) contrast(100%);
   width: 15%;
 }
+
+#right-container {
+  background-color: #ED8E53;
+  width: 50%;
+}
+
+.result-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  width: 180px;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.24);
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.24);
+}
+
+#title-results {
+  font-size: large;
+}
+
+#rectangles-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 23px;
+  width: 100%;
+}
+
+#simulation-result {
+  margin-top: 80px;
+}
+
+#chart {
+  background-color: antiquewhite;
+  width: 600px;
+}

@@ -1,10 +1,10 @@
 import './App.css';
 import React, { useContext } from 'react';
 import Results from './components/Results';
-import SimulatorLeft from './components/SimulatorLeft';
-import SimulatorRight from './components/SimulatorRight';
 import AppContext from './context/index';
-import GraphicData from './components/Graphic';
+import GraphicData from './components/Graphics';
+import SimulatorLeft from './components/LeftFormulary';
+import SimulatorRight from './components/RightFormulary';
 
 function App() {
   const { simulateResults } = useContext(AppContext);

@@ -3,7 +3,6 @@ import check from '../images/check-solid.svg'
 import infocircle from '../images/info-circle-solid (1).svg'
 import AppContext from '../context';
 
-
 export default function SimulatorLeft() {
   const { initialContribution, setInitialContribution, timeMonths,
     setTimeMonths, ipca, setIpca, setCdi, incomeCheckIcon, setIncomeCheckIcon,
@@ -24,8 +23,8 @@ export default function SimulatorLeft() {
     fetchApi();
   }, [setCdi, setIpca]);
 
-  function handleChange(event) {
-    setInitialContribution(event.target.value)
+  function handleChange({ target }) {
+    setInitialContribution(target.value)
   }
 
   function verifyBtn({ target }) {

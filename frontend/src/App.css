@@ -225,3 +225,150 @@
   background-color: antiquewhite;
   width: 600px;
 }
+
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+  body {
+    background-color: rgb(219, 219, 219);
+  }
+
+  #root {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  #left-forms-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+  }
+
+  #left-forms {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .btn-forms {
+    width: 200%;
+  }
+
+  .forms-container {
+    width: 100%;
+  }
+
+  #right-forms {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+  #root {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #left-forms {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+  }
+
+  .forms-container {
+    height: 550px;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .btn-forms {
+    width: 200%;
+  }
+
+  #simulation-result {
+    align-self: center;
+  }
+}
+
+#simulation-text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #left-forms-container {
+    align-self: center;
+    background-color: aqua;
+  }
+
+  #left-forms {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .forms-container {
+    margin: 20px;
+    height: 500px;
+  }
+
+  .btn-forms {
+    width: 300px;
+  }
+
+  #simulation-result {
+    align-self: center;
+  }
+}
+
+#simulation-text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  #left-forms-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #left-forms {
+    width: 60%;
+  }
+
+  .chart {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  #left-forms-container {
+    display: flex;
+  }
+
+  #right-forms {
+    width: 45%;
+  }
+}

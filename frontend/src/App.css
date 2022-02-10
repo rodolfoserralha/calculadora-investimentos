@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 25px;
+  min-height: 90vh;
+  width: 95%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#left-forms-container {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  align-self: center;
+}
+
+.forms-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-around;
+  margin: 10px;
+  position: relative;
+  width: 50%;
+}
+
+.initial-input {
+  background: transparent;
+  border: none;
+  box-shadow: 0 0.05rem 0 0 #000;
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  margin: 5px;
+  outline: none;
+  padding: 5px;
+  padding-left: 27px !important;
+}
+
+.inputs {
+  background: transparent;
+  border: none;
+  box-shadow: 0 0.05rem 0 0 #000;
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  margin: 5px;
+  outline: none;
+  padding: 5px;
+}
+
+.span-name {
+  margin-left: 5px;
+}
+
+#label-initial {
+  margin-left: 4px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+#label-initial-percent {
+  font-size: large;
+  margin-left: 29px;
+  margin-top: 25px;
+  position: absolute;
+}
+
+.input-container {
   display: flex;
   flex-direction: column;
+}
+
+.btn-forms {
+  align-self: center;
+  background-color: white;
+  border-radius: 10px;
+  font-size: larger;
+  padding: 5%;
+  width: 90%;
+}
+
+.upright-btns {
   align-items: center;
+  border: 2px solid black;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  font-size: large;
+  height: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 10px;
+  width: 48%;
+}
+
+.upleft-btns {
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  font-size: large;
+  height: 50px;
+  justify-content: center;
+  margin-top: 10px;
+  width: 48%;
+}
+
+#icon {
+  margin-right: 10px;
+  width: 8%;
+}
+
+#income-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#simulator-text {
+  margin-bottom: -20px;
+  margin-left: 2.5px;
+}
+
+.up-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.checked {
+  background-color: #ED8E53;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fix-btn {
+  border: 2px solid black;
+  border-radius: 0px 10px 10px 0px;
+  font-size: large;
+  height: 50px;
+  margin-top: 10px;
+  width: 32%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pre-btn {
+  border: 2px solid black;
+  border-radius: 10px 0px 0px 10px;
+  font-size: large;
+  height: 50px;
+  margin-top: 10px;
+  width: 32%;
+}
+
+.pos {
+  border: 2px solid black;
+  font-size: large;
+  height: 50px;
+  margin-top: 10px;
+  width: 32%;
+}
+
+#left-forms {
+  display: flex;
+  margin: 50px;
+  width: 45%;
+}
+
+#white-space-div {
+  height: 9px;
+}
+
+.check-icon {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(85deg) brightness(103%) contrast(100%);
+  width: 15%;
 }

@@ -1,4 +1,4 @@
-# Desafio Front-End Eqi Investinmentos
+# Calculadora de Investinmentos
 
 Este projeto foi feito por Rodolfo Serralha Pimentel
 

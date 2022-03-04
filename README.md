@@ -1,4 +1,4 @@
-# Calculadora de Investinmentos
+# Simulação de Investinmentos
 
 Este projeto foi feito por Rodolfo Serralha Pimentel
 

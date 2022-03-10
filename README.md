@@ -1,6 +1,10 @@
 # Simulação de Investinmentos
 
-Este projeto foi feito por Rodolfo Serralha Pimentel
+Este projeto foi feito por Rodolfo Serralha Pimentel.
+
+Nesse simulador de investimentos, você pode inserir valores mensais ou anuais e definir as taxas para fazer a simulação. Quando clica no botão a simulação é feita trazendo os resultados e um gráfico. 
+
+O projeto foi desenvolvido em React.
 
 ## Como rodar
  
